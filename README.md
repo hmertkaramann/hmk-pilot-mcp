@@ -1,14 +1,32 @@
-# HMK Pilot — MCP for Revit, AutoCAD & Civil 3D
+<p align="center">
+  <a href="https://hmktools.com/revit-mcp">
+    <img src="assets/banner.png" alt="HMK Pilot — MCP for Revit, AutoCAD & Civil 3D" width="820">
+  </a>
+</p>
 
-Drive **Autodesk Revit, AutoCAD, and Civil 3D** from an AI assistant
-(**Claude Desktop** / **Claude Code**) over the **Model Context Protocol (MCP)**.
+<h1 align="center">HMK Pilot — MCP for Revit, AutoCAD &amp; Civil 3D</h1>
 
-HMK Pilot runs a secure local MCP server **inside** your Autodesk application and
-exposes **190+ real actions**, so your LLM can read and edit the *live* model in
-plain language — not a stale export.
+<p align="center">
+  Drive your Autodesk apps from Claude, in plain language, over the Model Context Protocol.
+</p>
+
+<p align="center">
+  <a href="https://hmktools.com"><img alt="Website" src="https://img.shields.io/badge/website-hmktools.com-021E45"></a>
+  <a href="https://hmktools.com/revit-mcp"><img alt="Guide" src="https://img.shields.io/badge/guide-Revit%20MCP-5b9bf0"></a>
+  <img alt="Apps" src="https://img.shields.io/badge/Autodesk-Revit%20%C2%B7%20AutoCAD%20%C2%B7%20Civil%203D-021E45">
+  <img alt="License" src="https://img.shields.io/badge/license-commercial%20(free%20trial)-informational">
+</p>
+
+---
+
+**HMK Pilot** runs a secure local MCP server **inside** your Autodesk application
+and exposes **190+ real actions**, so an AI assistant like **Claude Desktop** or
+**Claude Code** can read and edit the *live* model in plain language — not a stale
+export.
 
 > Part of **[HMK Tools](https://hmktools.com)**.
-> Full guide: **[hmktools.com/revit-mcp](https://hmktools.com/revit-mcp)**
+> Full guide: **[hmktools.com/revit-mcp](https://hmktools.com/revit-mcp)** ·
+> Comparison: **[vs other Revit MCP options](https://hmktools.com/revit-mcp-comparison)**
 
 ## What it does
 
@@ -23,7 +41,7 @@ plain language — not a stale export.
 - **One-click** setup for Claude Desktop and Claude Code (writes the config and
   preserves any other MCP servers you already have).
 - Optional Roslyn `execute_autocad_code` / `execute_civil_code` escape hatch
-  (can be turned off in Settings → Security).
+  (toggle off in Settings → Security).
 
 ## Requirements
 
@@ -43,10 +61,16 @@ plain language — not a stale export.
 ## Learn more
 
 - How Revit MCP works: <https://hmktools.com/revit-mcp>
+- Compare the options: <https://hmktools.com/revit-mcp-comparison>
 - AI in Revit (guide): <https://hmktools.com/blog/ai-in-revit>
 - Revit connector: <https://hmktools.com/toolbox/pilot-connector>
 - AutoCAD & Civil 3D connector: <https://hmktools.com/toolbox/pilot-cad>
-- In-Revit chat panel: <https://hmktools.com/toolbox/pilot-chat>
+
+## More from HMK Tools
+
+HMK Pilot is one part of a 25+ tool suite for Revit, AutoCAD and Civil 3D —
+parameter automation, rebar, modeling, batch export and more. Browse them all at
+**[hmktools.com/toolbox](https://hmktools.com/toolbox)**.
 
 ## License
 
@@ -56,5 +80,5 @@ ships inside the HMK Tools add-in.
 
 ---
 
-Revit, AutoCAD and Civil 3D are trademarks of Autodesk, Inc. HMK Tools is not
-affiliated with, endorsed by, or sponsored by Autodesk.
+<sub>Revit, AutoCAD and Civil 3D are trademarks of Autodesk, Inc. HMK Tools is not
+affiliated with, endorsed by, or sponsored by Autodesk.</sub>
