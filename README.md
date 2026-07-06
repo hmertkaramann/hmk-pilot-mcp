@@ -15,12 +15,7 @@
   <a href="https://hmktools.com/revit-mcp"><img alt="Guide" src="https://img.shields.io/badge/guide-Revit%20MCP-5b9bf0"></a>
   <img alt="Apps" src="https://img.shields.io/badge/Autodesk-Revit%20%C2%B7%20AutoCAD%20%C2%B7%20Civil%203D-021E45">
   <img alt="License" src="https://img.shields.io/badge/license-commercial%20(free%20trial)-informational">
-</p>
-
-<p align="center">
-  <a href="https://glama.ai/mcp/servers/hmertkaramann/hmk-pilot-mcp">
-    <img alt="Listed on Glama" src="https://glama.ai/mcp/servers/hmertkaramann/hmk-pilot-mcp/badge">
-  </a>
+  <a href="https://glama.ai/mcp/servers/hmertkaramann/hmk-pilot-mcp"><img alt="Listed on Glama" src="https://img.shields.io/badge/listed%20on-Glama-5b9bf0"></a>
 </p>
 
 ---
