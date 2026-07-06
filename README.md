@@ -17,6 +17,12 @@
   <img alt="License" src="https://img.shields.io/badge/license-commercial%20(free%20trial)-informational">
 </p>
 
+<p align="center">
+  <a href="https://glama.ai/mcp/servers/hmertkaramann/hmk-pilot-mcp">
+    <img alt="Listed on Glama" src="https://glama.ai/mcp/servers/hmertkaramann/hmk-pilot-mcp/badge">
+  </a>
+</p>
+
 ---
 
 **HMK Pilot** runs a secure local MCP server **inside** your Autodesk application
