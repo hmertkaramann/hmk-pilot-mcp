@@ -7,7 +7,7 @@
 <h1 align="center">HMK Pilot — MCP for Revit, AutoCAD, Civil 3D &amp; Navisworks</h1>
 
 <p align="center">
-  Drive your Autodesk apps from Claude, in plain language, over the Model Context Protocol.
+  Drive your Autodesk apps from any MCP client, in plain language.
 </p>
 
 <p align="center">
@@ -21,9 +21,8 @@
 ---
 
 **HMK Pilot** runs a secure local MCP server **inside** your Autodesk application
-and exposes **330+ real actions**, so an AI assistant like **Claude Desktop** or
-**Claude Code** can read and edit the *live* model in plain language — not a stale
-export.
+and exposes **330+ real actions**, so an AI assistant can read and edit the *live*
+model in plain language — not a stale export.
 
 > Part of **[HMK Tools](https://hmktools.com)**.
 > Full guide: **[hmktools.com/revit-mcp](https://hmktools.com/revit-mcp)** ·
@@ -42,13 +41,34 @@ export.
   quantification, viewpoints, federation (append / merge / refresh / publish).
 - Runs **100% locally** (bound to `localhost`) — your models and drawings never
   leave your machine.
-- **One-click** setup for Claude Desktop and Claude Code (writes the config and
-  preserves any other MCP servers you already have).
 - Optional Roslyn escape hatch — `execute_revit_code`, `execute_autocad_code`,
   `execute_civil_code`, `execute_navisworks_code` (toggle off in
   Settings → Security).
 
-### Built-in domain knowledge
+## Works with your assistant
+
+Pilot AI speaks plain MCP, so anything that does will work. These are detected
+and configured for you, one click each:
+
+| Client | Config |
+|---|---|
+| **Claude Desktop** | JSON (both config locations) |
+| **Claude Code** | JSON |
+| **ChatGPT / Codex** | TOML |
+| **Cursor** | JSON |
+| **Google Antigravity** | JSON |
+| **Windsurf** | JSON |
+| **Gemini CLI** | JSON |
+
+Setup scans for the clients you actually have installed and writes only to
+those. **Any MCP servers already in your config are preserved** — the writer
+merges rather than replaces, and reports how many entries it left alone.
+
+Running more than one Autodesk app, or several instances of the same one? Turn
+on the **3-slot pool** and each instance gets its own server entry, so the
+assistant can tell them apart instead of racing for a single port.
+
+## Built-in domain knowledge
 
 The connectors ship a knowledge base the assistant can pull on demand through
 `get_knowledge_template` — verified API notes, workflow recipes, unit tables and
@@ -66,7 +86,7 @@ your computer.
 - Windows (x64)
 - Autodesk **Revit 2023–2027**, **AutoCAD / Civil 3D 2021–2027**, and/or
   **Navisworks Manage / Simulate 2023–2027**
-- **Claude Desktop** or **Claude Code** (bring your own Claude account)
+- An MCP client from the table above (bring your own AI account)
 - An **HMK Tools license** — free 30-day trial, no card
 
 > No Node.js, no Python, no separate runtime. The local bridge is a single
@@ -77,7 +97,8 @@ your computer.
 1. Download & install **HMK Tools** from **[hmktools.com](https://hmktools.com)**.
 2. In Revit / AutoCAD / Civil 3D / Navisworks, open the **HMK Tools → Pilot AI**
    ribbon and toggle the **Connector** on.
-3. Click **Connect Claude Desktop** (or **Connect Claude Code**) — done.
+3. Open **Settings → Setup Guide**, find your assistant in the list and click
+   **Configure** — done. Restart the client so it picks up the new server.
 
 ## Learn more
 
