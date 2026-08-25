@@ -33,7 +33,7 @@ model in plain language — not a stale export.
 - **Revit** — 100+ actions: select elements, edit parameters, create sheets, tag
   views, run clash checks, export IFC/NWC, drive Dynamo, and more. Also a
   built-in chat panel.
-- **AutoCAD** — 85+ actions: draw & modify geometry, manage layers, blocks &
+- **AutoCAD** — 80+ actions: draw & modify geometry, manage layers, blocks &
   xrefs, layouts and plotting to PDF.
 - **Civil 3D** — 50+ additional actions: alignments, profiles, surfaces,
   corridors, pipe networks, sample lines & section views, COGO points.
@@ -59,6 +59,7 @@ and configured for you, one click each:
 | **Google Antigravity** | JSON |
 | **Windsurf** | JSON |
 | **Gemini CLI** | JSON |
+| **Qwen Code** | JSON |
 
 Setup scans for the clients you actually have installed and writes only to
 those. **Any MCP servers already in your config are preserved** — the writer
@@ -88,17 +89,33 @@ your computer.
   **Navisworks Manage / Simulate 2023–2027**
 - An MCP client from the table above (bring your own AI account)
 - An **HMK Tools license** — free 30-day trial, no card
+  ([pricing](https://hmktools.com/pricing))
 
 > No Node.js, no Python, no separate runtime. The local bridge is a single
 > native executable that ships with the add-in.
 
 ## Install
 
-1. Download & install **HMK Tools** from **[hmktools.com](https://hmktools.com)**.
+1. Download & install **HMK Tools** from
+   **[hmktools.com/install](https://hmktools.com/install)**.
 2. In Revit / AutoCAD / Civil 3D / Navisworks, open the **HMK Tools → Pilot AI**
    ribbon and toggle the **Connector** on.
 3. Open **Settings → Setup Guide**, find your assistant in the list and click
    **Configure** — done. Restart the client so it picks up the new server.
+
+Step-by-step with screenshots:
+**[Getting started](https://hmktools.com/docs/getting-started)** ·
+**[Connect a client](https://hmktools.com/docs/connect)**.
+
+## Docs
+
+- Getting started: <https://hmktools.com/docs/getting-started>
+- Connect an MCP client: <https://hmktools.com/docs/connect>
+- Asking for what you want: <https://hmktools.com/docs/how-to-ask>
+- Troubleshooting: <https://hmktools.com/docs/troubleshooting>
+- Per app — Revit: <https://hmktools.com/docs/revit> ·
+  AutoCAD / Civil 3D: <https://hmktools.com/docs/autocad> ·
+  Navisworks: <https://hmktools.com/docs/navisworks>
 
 ## Learn more
 
@@ -110,12 +127,19 @@ your computer.
 - Revit connector: <https://hmktools.com/toolbox/pilot-ai-revit>
 - AutoCAD & Civil 3D connector: <https://hmktools.com/toolbox/pilot-cad>
 - Navisworks connector: <https://hmktools.com/toolbox/navis-pilot>
+- What changed, release by release: <https://hmktools.com/changelog>
 
 ## More from HMK Tools
 
-HMK Pilot is one part of a 25+ tool suite for Revit, AutoCAD, Civil 3D and
+HMK Pilot is one part of a 28-tool suite for Revit, AutoCAD, Civil 3D and
 Navisworks — parameter automation, rebar, modeling, batch export and more.
 Browse them all at **[hmktools.com/toolbox](https://hmktools.com/toolbox)**.
+
+## Questions
+
+This repository is an overview, not the source — issues here are welcome, but
+the fastest route to a person is
+**[hmktools.com/contact](https://hmktools.com/contact)**.
 
 ## License
 
