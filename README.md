@@ -82,6 +82,22 @@ locally, then offered back on similar work — including in a *later* session, a
 across both the MCP server and the in-app chat panel. Nothing about this leaves
 your computer.
 
+## Workflow skills
+
+The [`skills/`](skills) folder is part of the workflow knowledge HMK Pilot ships
+with each app — auditing a model, laying out sheets, running clash tests,
+building a TimeLiner schedule, what to confirm before a destructive change, and
+how to report results back:
+[Revit](skills/revit) · [AutoCAD / Civil 3D](skills/autocad-civil3d) ·
+[Navisworks](skills/navisworks).
+
+With the connector attached there is nothing to install: the assistant already
+pulls these on demand through `get_knowledge_template`. Each file also carries
+`name` / `description` frontmatter, so it loads as a Claude Skill (in Claude
+Code, save it as `~/.claude/skills/<name>/SKILL.md`) — but they are written
+against HMK Pilot's tool names, so they **only work while the HMK Pilot
+connector is connected**.
+
 ## Requirements
 
 - Windows (x64)
