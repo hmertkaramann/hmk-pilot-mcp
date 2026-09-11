@@ -57,8 +57,6 @@ and configured for you, one click each:
 | **ChatGPT / Codex** | TOML |
 | **Cursor** | JSON |
 | **Google Antigravity** | JSON |
-| **Windsurf** | JSON |
-| **Gemini CLI** | JSON |
 
 Setup scans for the clients you actually have installed and writes only to
 those. **Any MCP servers already in your config are preserved** — the writer
