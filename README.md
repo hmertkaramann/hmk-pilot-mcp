@@ -21,7 +21,7 @@
 ---
 
 **HMK Pilot** runs a secure local MCP server **inside** your Autodesk application
-and exposes **330+ real actions**, so an AI assistant can read and edit the *live*
+and exposes **340+ real actions**, so an AI assistant can read and edit the *live*
 model in plain language — not a stale export.
 
 > Part of **[HMK Tools](https://hmktools.com)**.
@@ -101,7 +101,7 @@ connector is connected**.
 - Autodesk **Revit 2023–2027**, **AutoCAD / Civil 3D 2021–2027**, and/or
   **Navisworks Manage / Simulate 2023–2027**
 - An MCP client from the table above (bring your own AI account)
-- An **HMK Tools license** — free 30-day trial, no card
+- An **HMK Tools license** — free 14-day trial, no card
   ([pricing](https://hmktools.com/pricing))
 
 > No Node.js, no Python, no separate runtime. The local bridge is a single
@@ -156,7 +156,7 @@ the fastest route to a person is
 
 ## License
 
-Commercial — included with an **HMK Tools** license (free 30-day trial). This
+Commercial — included with an **HMK Tools** license (free 14-day trial). This
 repository is the public overview for the HMK Pilot MCP server; the server itself
 ships inside the HMK Tools add-in.
 
